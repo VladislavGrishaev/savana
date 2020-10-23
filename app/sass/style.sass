@@ -1,0 +1,88 @@
+@font-face
+    font-family: 'Museo-Sans-Cyrl-500'
+    src: url('../fonts/Museo-Sans-Cyrl-500.ttf')
+
+@font-face
+    font-family: 'Museo-Sans-Cyrl-900'
+    src: url('../fonts/Museo-Sans-Cyrl-900.ttf')
+@font-face 
+    font-family: 'Museo-Sans-Cyrl-700'
+    src: url('../fonts/Museo-Sans-Cyrl-700.ttf')
+
+
+.articles
+    padding-top: 50px
+    padding-bottom: 50px
+    &__title p
+        font-family: 'Museo-Sans-Cyrl-900', sans-serif
+        font-size: 24px
+        color: #222222
+    &__bread_crumb ul li a
+        font-family: 'Museo-Sans-Cyrl-500', sans-serif
+        color: #222222
+        font-size: 14px
+        text-transform: uppercase
+    &__bread_crumb li:nth-last-child(1) a
+        color: #999999
+    &__bread_crumb ul
+        display: flex
+    &__bread_crumb ul li
+        margin-left: 20px
+        position: relative
+    &__bread_crumb ul li:first-child::before
+        content: ''
+    &__bread_crumb ul li:first-child
+        margin-left: 0
+    &__bread_crumb ul li::before
+        content: '/'
+        position: absolute
+        left: -12px
+        color: #222222
+    &__bread_crumb
+        margin-top: 10px
+        margin-bottom: 30px
+    &__info_wrap
+        display: flex
+        border: 1px solid #eeeeee
+        border-radius: 5px
+        margin-bottom: 15px
+    &__info_wrap:last-child
+        margin-bottom: 0
+    &__img, &__img img
+        width: 100%
+    &__img img
+        height: 100%
+        object-fit: cover
+        object-position: center
+        border-top-left-radius: 5px
+        border-bottom-left-radius: 5px
+    &__text_info
+        padding: 30px
+    &__more_text
+        display: flex
+        justify-content: space-between
+    &__artic_title, &__more_text a
+        font-family: 'Museo-Sans-Cyrl-700', sans-serif
+        color: #222222
+    &__artic_title
+        margin-bottom: 20px
+    &__artic_text, &__more_text p
+        font-family: 'Museo-Sans-Cyrl-500', sans-serif
+        color: #555555
+        font-size: 14px
+        line-height: 24px
+    &__more_text p
+        line-height: normal
+    &__more_text a
+        background-image: url('../img/right arrow.svg')
+        background-repeat: no-repeat
+        background-position: right center
+        max-width: 100px;
+        width: 100%;
+        font-size: 11px
+        text-transform: uppercase
+        display: flex;
+        align-items: center;
+    &__more_text
+        margin-top: 20px
+    

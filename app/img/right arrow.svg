@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="10" viewBox="0 0 16 10">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #222;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="right_arrow" data-name="right arrow" class="cls-1" d="M775.26,351.493a0.615,0.615,0,0,0-.8,0,0.465,0.465,0,0,0,0,.708l4.083,3.628H765.063a0.531,0.531,0,0,0-.563.5,0.537,0.537,0,0,0,.563.508h13.475l-4.083,3.621a0.473,0.473,0,0,0,0,.715,0.615,0.615,0,0,0,.8,0l5.05-4.486a0.456,0.456,0,0,0,0-.708Z" transform="translate(-764.5 -351.344)"/>
+</svg>
